@@ -1,0 +1,26 @@
+$mainColor: #e4393c;
+$bigSize: 20px;
+$smallSize: 16px;
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    height: 40px;
+    background-color: $mainColor;
+    box-sizing: border-box;
+    padding: 5px;
+    ul{
+        width: 100%;
+        height: 100%;
+        li{
+            float: left;
+            width: 20%;
+            height: 100%;
+            background-color: #fff;
+        }
+    }
+}
